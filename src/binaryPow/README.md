@@ -1,2 +1,0 @@
-### Binary exponentiation
-Binary exponentiation is a technique that allows to raise any number to the n-power in ![alt text](https://github.com/ZangievM/kotlin_algo/blob/master/src/binaryPow/images/log.png)
