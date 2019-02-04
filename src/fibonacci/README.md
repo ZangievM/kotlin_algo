@@ -1,14 +1,14 @@
 ### Fibonacci numbers
 Fibonacci numbers are elements of sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1. That is:
 
-![alt-text](![alt text](https://github.com/ZangievM/kotlin_algo/blob/master/src/fibonacci/images/f0_f1.svg))
+![alt text](https://github.com/ZangievM/kotlin_algo/blob/master/src/fibonacci/images/f0_f1.svg)
 
-![alt-text](![alt text](https://github.com/ZangievM/kotlin_algo/blob/master/src/fibonacci/images/fn.svg))
+![alt text](https://github.com/ZangievM/kotlin_algo/blob/master/src/fibonacci/images/fn.svg)
 
 There are realized two methods to find Fibonacci n-number.
 
 - Simple. Works in O(n)
-- Fast. Works in ![alt-text](![alt text](https://github.com/ZangievM/kotlin_algo/blob/master/src/fibonacci/images/log.png))
+- Fast. Works in ![alt text](https://github.com/ZangievM/kotlin_algo/blob/master/src/fibonacci/images/log.png)
 
 ##### Simple solution
 ```kotlin
@@ -27,19 +27,19 @@ fun fibonacci(n: Int): Int {
 ##### Fast solution
 It is not difficult to prove the following matrix equality:
 
-![alt-text](![alt text](https://github.com/ZangievM/kotlin_algo/blob/master/src/fibonacci/images/formula_fast.png))
+![alt text](https://github.com/ZangievM/kotlin_algo/blob/master/src/fibonacci/images/fast_formula.png)
 
 Denoting:
 
-![alt-text](![alt text](https://github.com/ZangievM/kotlin_algo/blob/master/src/fibonacci/images/p.png))
+![alt text](https://github.com/ZangievM/kotlin_algo/blob/master/src/fibonacci/images/p.png)
 
 We get:
 
-![alt-text](![alt text](https://github.com/ZangievM/kotlin_algo/blob/master/src/fibonacci/images/fast_final.png))
+![alt text](https://github.com/ZangievM/kotlin_algo/blob/master/src/fibonacci/images/fast_final.png)
 
 So for finding Fibonacci n-number we should power P-matrix to n-degree.
 
-Raising the matrix to the n-th degree we can do in ![alt-text](![alt text](https://github.com/ZangievM/kotlin_algo/blob/master/src/fibonacci/images/log.png)) (See [Binary Pow](https://github.com/ZangievM/kotlin_algo/blob/master/src/binaryPow))
+Raising the matrix to the n-th degree we can do in ![alt text](https://github.com/ZangievM/kotlin_algo/blob/master/src/fibonacci/images/log.png) (See [Binary Pow](https://github.com/ZangievM/kotlin_algo/blob/master/src/binaryPow))
 
 It means that we can calculate Fibonacci n-number in ![alt text](https://github.com/ZangievM/kotlin_algo/blob/master/src/fibonacci/images/log.png)
 
