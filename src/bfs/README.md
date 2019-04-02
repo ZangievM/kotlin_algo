@@ -62,7 +62,7 @@ Works in ![alt-text](https://github.com/ZangievM/kotlin_algo/blob/master/src/bfs
 
 Solutions contains some useful extension-methods like `enqueue`, `dequeue`, `front` for `MutableList<Int>` and `print` method for `Array<Int>` and `List<Int>`
 
-You can see them in [Extensions.kt](https://github.com/ZangievM/kotlin_algo/blob/master/src/bfs/) file
+You can see them in [Extensions.kt](https://github.com/ZangievM/kotlin_algo/blob/master/src/bfs/Extensions.kt) file
 
 [link on Wikipedia](https://en.wikipedia.org/wiki/Breadth-first_search)
 
