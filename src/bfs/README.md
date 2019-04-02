@@ -36,7 +36,7 @@ fun bfs(graph: Array<Array<Int>>, from: Int = 0): Array<Int> {
 
 It returns array of distances from 'search-key'(named 'from' in code) vertex to others
 
-If you want to restore paths from 'search-key' to others it has methods for it:
+If you want to restore paths from 'search-key' to others it has useful methods:
 ``` kotlin
 fun restorePaths(paths: Array<Int>, used: Array<Boolean>, distances: Array<Int>, from: Int = 0) {
     for (i in 0 until paths.size) {
