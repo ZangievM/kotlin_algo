@@ -1,2 +1,2 @@
-# kotlin_algo
-Algorithms written on Kotlin programming language
+# Algorithms written on `Kotlin` programming language
+
