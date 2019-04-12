@@ -1,6 +1,5 @@
 package bfs
 
-
 fun bfs(graph: Array<Array<Int>>, from: Int = 0): Array<Int> {
     // queue of vertexes
     val queue = mutableListOf<Int>()
