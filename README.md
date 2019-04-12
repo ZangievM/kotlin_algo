@@ -11,6 +11,7 @@
 
 ##### Graphs:
  - [BFS](https://github.com/ZangievM/kotlin_algo/blob/master/src/bfs)
+ - [DFS](https://github.com/ZangievM/kotlin_algo/blob/master/src/dfs)
 
 
 #### The list of topics will be supplemented
