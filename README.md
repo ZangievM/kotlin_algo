@@ -12,6 +12,7 @@
 ##### Graphs:
  - [BFS](https://github.com/ZangievM/kotlin_algo/blob/master/src/bfs)
  - [DFS](https://github.com/ZangievM/kotlin_algo/blob/master/src/dfs)
+ - [Topological sorting](https://github.com/ZangievM/kotlin_algo/blob/master/src/topological_sort)
 
 
 #### The list of topics will be supplemented
